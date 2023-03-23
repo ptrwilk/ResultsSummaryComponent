@@ -4,3 +4,24 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('./assets/HankenGrotesk-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('./assets/HankenGrotesk-Bold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('./assets/HankenGrotesk-ExtraBold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}

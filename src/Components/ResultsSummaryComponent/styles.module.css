@@ -1,0 +1,16 @@
+@import url('../../colors.css');
+
+.box {
+    display: flex;
+    border-radius: 2rem;
+    background-color: var(--white);
+    box-shadow: 0px 20px 30px rgb(0,0,0, 0.1);
+}
+
+
+@media (max-width : 800px) {
+    .box {
+        flex-direction: column;
+    }
+}
+

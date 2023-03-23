@@ -1,0 +1,55 @@
+@import url('../../colors.css');
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
+}
+
+.box .your-result{
+    color: var(--light-lavender);
+    font-weight: 600;
+}
+
+.box .great{
+    margin-top: 2rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.box .text{
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--pale-blue);
+}
+
+.box .circle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 200px;
+    height : 200px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, var(--violet-blue), var(--persian-blue));
+}
+
+.box .circle-number{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--white);
+}
+
+.box .circle-second-number{
+    color: var(--light-lavender);
+}

@@ -1,0 +1,119 @@
+
+@import url('../../colors.css');
+
+.box{
+    width: 375px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    background-color: var(--white);
+}
+
+.box .summary{
+    font-weight: 600;
+    color: var(--dark-gray-blue);
+}
+
+.box .items{
+    margin-top: 1rem;
+}
+
+.box .item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.box .item-margin:not(:first-child){
+    margin-top: 1rem;
+}
+
+.box .item-Reaction{
+    background-color: var(--light-red-low-opacity);
+}
+
+.box .item-name-Reaction{
+    color: var(--light-red);
+}
+
+.box .item-Memory{
+    background-color: var(--orangey-yellow-low-opacity);
+}
+
+.box .item-name-Memory{
+    color: var(--orangey-yellow);
+}
+
+.box .item-Verbal{
+    background-color: var(--green-teal-low-opacity);
+}
+
+.box .item-name-Verbal{
+    color: var(--green-teal);
+}
+
+.box .item-Visual{
+    background-color: var(--cobalt-blue-low-opacity);
+}
+
+.box .item-name-Visual{
+    color: var(--cobalt-blue);
+}
+
+.box .item .item-icon-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .item .item-icon-name .item-name{
+    margin-left: 1rem;
+}
+
+.box .item .item-score{
+    display: flex;
+}
+
+.box .item .item-score .item-score-separator{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 700;
+    color: var(--light-lavender);
+}
+
+.box .item .item-score .item-score-score{
+    font-weight: 600;
+    color: var(--dark-gray-blue);
+}
+
+.box .item .item-score .item-score-hundred{
+    font-weight: 600;
+    color: var(--light-lavender);
+}
+
+.box .btn{
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
+    text-transform: none;
+}
+
+.box .btn:hover{
+    background-image: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
+}
+
+@media (max-width : 800px) {
+    .box {
+        padding-top: 2rem;
+    }
+}
